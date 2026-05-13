@@ -1,16 +1,59 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React와 Vite를 기반으로 제작한 개인 포트폴리오 웹사이트입니다.
 
-Currently, two official plugins are available:
+현재는 포트폴리오의 전체 구조와 디자인 방향성을 잡기 위한 초기 개발 단계입니다. Projects 섹션의 내용은 임시 데이터이며, 추후 실제 프로젝트 정리 후 업데이트할 예정입니다.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 주요 기능
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero, About, Skills, Projects, Contact 섹션 구성
+- 타이핑 애니메이션
+- 픽셀아트 스타일의 UI
+- 섹션 이동 네비게이션
+- 이메일 복사 기능
+- 반응형 레이아웃 기본 구조
 
-## Expanding the ESLint configuration
+## 기술 스택
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| 구분 | 기술 |
+|---|---|
+| Framework | React |
+| Build Tool | Vite |
+| Language | JavaScript |
+| Styling | Inline CSS |
+| Version Control | Git, GitHub |
+
+## 실행 방법
+
+```bash
+git clone https://github.com/YoonahJoo/portfolio-website.git
+cd portfolio-website
+npm install
+npm run dev
+```
+
+브라우저에서 아래 주소로 접속합니다.
+
+```bash
+http://localhost:5173
+```
+
+## 개발 상태
+
+이 프로젝트는 현재 개발 중입니다.
+
+추후 개선 예정 항목은 다음과 같습니다.
+
+- 실제 프로젝트 정보 추가
+- 프로젝트별 GitHub 링크 추가
+- 프로젝트 스크린샷 추가
+- 반응형 레이아웃 개선
+- 스타일 코드 정리
+- 필요 시 배포 진행
+
+## 작성자
+
+Yoonah Joo  
+GitHub: https://github.com/YoonahJoo  
+Email: adora0913@yonsei.ac.kr
