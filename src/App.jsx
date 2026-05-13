@@ -388,7 +388,7 @@ function ContactSection() {
         </div>
       </PixelBorder>
       <div style={{ fontFamily: PIXEL_FONT, fontSize: "7px", color: COLORS.subtext, marginTop: "48px" }}>
-        © 2024 {portfolioData.name} — MADE WITH 💜
+        © 2026 {portfolioData.name} — MADE WITH 💜
       </div>
     </section>
   );
